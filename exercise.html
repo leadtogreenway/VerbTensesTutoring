@@ -1,0 +1,76 @@
+<Html>
+    <head>
+<a href="page4.html" class="nav-link left">Return to List of Exercises</a>
+
+      <title>VERB TENSES EXERCISE </title>
+      <meta charset="utf-8"/>
+
+
+<style>
+body {
+    background-color: #CCE5FF;
+     }
+</style>
+
+<script
+ src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"\>
+</script>
+
+<script type="application/javascript" src=ex.js></script>
+
+</head>
+
+<body>
+<h3> Verb Tenses Exercise </h3>
+      
+<p> Please choose the best tense of the verb that match the intent diagram shown below.</p> 
+<br> 
+<p style="margin-left: 10px"> <b> Place holder for image.</b> </p> <br>
+<form id="d1"> 
+<input type="radio" name="choice" value="eat"> eat <br>
+<input type="radio" name="choice" value="have eaten"> have eaten <br>
+<input type="radio" name="choice" value="had eaten"> had eaten <br>
+<input type="radio" name="choice" value="ate"> ate <br> <br>
+<input type="button" onclick="submitAnswer(d1.choice.value, 'ate')" value="Submit Answer">
+</form>
+
+<p style="margin-left: 10px"> <b> Place holder for image.</b> </p> <br>
+<form id="d2"> 
+<input type="radio" name="choice" value="jumped"> jumped <br>
+<input type="radio" name="choice" value="have jumped"> have jumped <br>
+<input type="radio" name="choice" value="will jump"> will jump <br>
+<input type="radio" name="choice" value="had jumped"> had jumped <br> <br>
+<input type="button" onclick="submitAnswer(d2.choice.value, 'jumped')" value="Submit Answer">
+</form>
+
+<p style="margin-left: 10px"> <b> Place holder for image.</b> </p> <br>
+<form id="d3"> 
+<input type="radio" name="choice" value="forget"> forget <br>
+<input type="radio" name="choice" value="forgot"> forgot <br>
+<input type="radio" name="choice" value="would have forgotten"> would have forgotten <br>
+<input type="radio" name="choice" value="have forgotten"> have forgotten <br> <br>
+<input type="button" onclick="submitAnswer(d3.choice.value, 'forget')" value="Submit Answer">
+</form>
+
+<p style="margin-left: 10px"> <b> Place holder for image.</b> </p> <br>
+<form id="d4"> 
+<input type="radio" name="choice" value="talk"> talk <br>
+<input type="radio" name="choice" value="going to talk"> going to talk <br>
+<input type="radio" name="choice" value="had talked"> had talked <br>
+<input type="radio" name="choice" value="was talking"> was talking <br> <br>
+<input type="button" onclick="submitAnswer(d4.choice.value, 'was talking')" value="Submit Answer">
+</form>
+<!-- input area begins -->
+
+<div id="queryContent1">
+
+    <!--<INPUT TYPE="button" onClick="submitAnswer()" VALUE="Submit Answer"> -->
+    <INPUT TYPE="button" onClick="next()" VALUE="Next Question">
+
+</div>
+
+
+<br>
+<INPUT TYPE="button" onClick="quit()" VALUE="QUIT">
+</body>
+</html>
